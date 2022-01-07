@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { projectFirestore } from "../firebase/config";
+import { projectFirestore } from "../config";
 import { collection, onSnapshot, orderBy, query } from "firebase/firestore"; 
 
 
